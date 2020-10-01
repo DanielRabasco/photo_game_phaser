@@ -1,0 +1,13 @@
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../../game/welcome/welcome.component.css">
+</head>
+<div class="content" role="main">
+    <b>Your score was:</b>
+    <b>{{score.toPrecision(3)}}</b>
+    <b>&nbsp;</b>
+    <b>&nbsp;</b>
+    <a (click)= "StartScene()" class="action-button shadow animate blue">Play Again</a>
+    <a (click)= "StartMenu()" class="action-button shadow animate green">Back To Menu</a>
+</div>

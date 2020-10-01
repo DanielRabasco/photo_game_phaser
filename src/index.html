@@ -5,8 +5,15 @@
   <title>PhotoGame</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link ref = "icon" type="image/x-icon" href="favicon.ico">
 </head>
+<script>
+	if (global == undefined){
+		var global = window;
+	}
+</script>
+<script src="assets/phaser.min.js"></script>
+
 <body>
   <app-root></app-root>
 </body>

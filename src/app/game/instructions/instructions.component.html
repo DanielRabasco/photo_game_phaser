@@ -1,0 +1,21 @@
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../../game/welcome/welcome.component.css">
+</head>
+<div class="content" role="main">
+    <p>Different images will appear moving from the left side to the right side of the screen</p>
+    <a>&nbsp;</a>
+    <p>Your mission is to type the first letter of each image before the image reach the end of the screen</p>
+    <a>&nbsp;</a>
+    <p>The faster you type the letter the more points you get</p>
+    <a>&nbsp;</a>
+    <p>Each wrong letter means less points, if you fail 4 times, you will get 0 points for this image</p>
+    <a>&nbsp;</a>
+    <p>The more time you play the faster the images will move</p>
+    <b>&nbsp;</b>
+    <b>&nbsp;</b>
+    <a (click)= "StartScene()" class="action-button shadow animate blue">Start Game</a>
+    <a (click)= "GoBackToMenuComponent()" class="action-button shadow animate green">Back</a>
+</div>
+
