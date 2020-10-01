@@ -31,6 +31,7 @@ export class GameManagerComponent implements OnInit {
 	  }
 
 	  ngOnInit(): void {
+		  // Initialize game
 		  this.phaserGame = new Phaser.Game(this.config);	  
 	  }
 

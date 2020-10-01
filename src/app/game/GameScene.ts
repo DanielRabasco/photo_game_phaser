@@ -60,6 +60,10 @@ export default class GameScene extends Phaser.Scene {
       this.current_photo = this.game_manager.photos.pop();
       this.load.image('photo', this.current_photo.url);
       this.load.start();
+
+      if (this.game_manager.photos.length < 10){
+        this.game_manager.getImagesFromAPI();
+      }
     }
 
     async preload() {

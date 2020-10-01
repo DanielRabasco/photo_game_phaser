@@ -6,7 +6,16 @@ export class Photo {
   public img: Phaser.GameObjects.Image;
 
   constructor(name:string, url:string){
-    this.name = name;
+
+    // The api sometimes gives null value in the name field, so we can have a valid url with null name.
+    // So, by default the name will be 'a'
+    if (name != null){
+      this.name = name;
+    }
+    else{
+      this.name = "a";
+    }
+    
     this.url = url;
   }
 
