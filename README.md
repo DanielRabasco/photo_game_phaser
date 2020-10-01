@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2.
 
+## Instructions for players
+
+To try the game run `npm install` inside the project folder and then run `npm start` to run the server. Now you just need to navigate to `http://localhost:4200/`.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
