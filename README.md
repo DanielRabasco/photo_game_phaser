@@ -9,7 +9,7 @@ To try the game run `npm install` inside the project folder and then run `npm st
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-The API used for getting images: `http://unplash.com/developers`
+The API used for getting images: `http://unsplash.com`
 
 ## Code scaffolding
 
